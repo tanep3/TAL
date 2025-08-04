@@ -1,0 +1,45 @@
+{
+  "original_prompt": "Draw a Japanese high school girl performing a TikTok dance with a proud, confident smile, while in the background her classmate is being violently attacked by crows, screaming in visible panic with her eyes wide open and flailing arms. Anime-style, sunny rooftop setting.",
+  "goal": {
+    "goal": "To create a surreal, comedic scene combining exaggerated emotional contrast and cultural satire, where perfect performance meets utter chaos.",
+    "note": "The viewer should laugh from shock while being visually captivated by the absurd split of moods and narrative in a single frame."
+  },
+  "evaluation_criteria": [
+    "Dancing girl's expression is beaming with confident self-love (ドヤ顔)",
+    "Background girl's fear is exaggerated: wide eyes, open mouth, extreme panic",
+    "Crows act aggressively and interact with the second girl",
+    "The composition maintains clear focus and strong comedic contrast"
+  ],
+  "output_format": {
+    "type": "comedic_anime_split_scene",
+    "fields": ["foreground dancer", "background chaos", "expression detail", "scene lighting and layout"],
+    "note": "Balance absurd comedy with polished anime aesthetic; immediate readability is essential."
+  },
+  "z_axis": {
+    "Structure": {
+      "values": ["tight foreground focus", "clear background activity", "emotive spatial divide"]
+    },
+    "Function": {
+      "values": ["comedy via exaggeration", "contrast of intention vs. reality", "TikTok satire"]
+    },
+    "Experience": {
+      "values": ["delight in absurdity", "unexpected emotional swing", "visual overload humor"]
+    },
+    "Temporal": {
+      "values": ["snapshot mid-motion", "frozen chaos", "perfect pose vs. panic"]
+    },
+    "Contextual": {
+      "values": ["Japanese school rooftop", "bright blue sky", "summer school vibe"]
+    }
+  },
+  "ghost_axis": {
+    "values": ["I’m the main character", "I can’t believe she’s ignoring this", "Is this real life or anime logic?"]
+  },
+  "vector_axis": {
+    "Prideful performance vs. existential panic": {
+      "semantic_similarity": 0.28,
+      "opposition_strength": 9,
+      "meaning_projection": ["visual clash", "performance vs survival", "attention duality"]
+    }
+  }
+}

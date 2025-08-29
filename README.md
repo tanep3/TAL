@@ -22,6 +22,38 @@ Instead of imperative commands, TAL serves as an OS-like interface to explicitly
 
 ---
 
+## ✨ Features
+
+1. **Provide ways of thinking, not commands** 👉 AI shifts from dictionary-like answers to thought-driven responses.
+
+2. **Structured grammar** With JSON structure, Z-axis, and Vector-axis, ambiguity in prompts is eliminated 👉 AI won’t hesitate 👉 Outputs align more closely with what users expect.
+
+3. **Ghost-axis** enables emotional nuance in AI’s responses 👉 More human-like answers are achieved.
+
+4. **Extend existing useful prompts (e.g., CoT)** 👉 Wrap them in TAL and enhance with additional TAL features.
+
+5. **Modular design** 👉 Create multiple single-function TAL prompts, reuse and combine them to build more complex tasks 👉 [TAL-Libs](https://github.com/tanep3/TAL-Libs)
+
+6. **Flow control (branching, recursion, parallelism)** 👉 Even as prompts, TAL can *program AI’s thinking*.
+
+7. **Meta-language (self-descriptive)** 👉 TAL can be used to generate other TAL code.
+
+8. **TALC compiler available** 👉 Beginners can simply talk to TALC in natural language, and it will internally compile to TAL for AI reasoning.
+
+9. Applicable to diverse AI domains: summarization, dialogue, translation, creative writing, and more.
+
+10. Future potential as a **design language for deep AI control and ethical guardrails**.
+
+---
+
+## 🌐 English Preprint
+
+The English preprint is published on [Zenodo](https://zenodo.org/records/15379276):
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15379276.svg)](https://zenodo.org/records/15379276)
+
+---
+
 ## 📚 Documentation Index
 
 ### 🚀 Structural explanation of TAL
@@ -43,22 +75,6 @@ Instead of imperative commands, TAL serves as an OS-like interface to explicitly
 
 ---
 
-## ✨ Features
-
-1. Structured grammar offers clear cognitive frameworks to AI.
-
-2. With the TAL Compiler (TALC), you can automate the creation, transformation, and usage of TAL syntax.
-
-3. Wrapping existing techniques (e.g., ToT, CoT, ReAct) within TAL enhances performance.
-
-4. Reusable modular blocks allow flexible prompt construction tailored to different objectives.
-
-5. Applicable across tasks such as summarization, dialogue, translation, and creative generation.
-
-6. TAL is expected to become a language for deep control and ethical guardrail design in the future.
-
----
-
 ## 🤖 TAL Compiler (TALC)
 
 A public GPTs-based tool named TALC (TAL Compiler) is available here:  
@@ -69,13 +85,14 @@ It serves as both a prompt generator and an interactive guide to TAL's core conc
 
 ---
 
-## 🌐 English Preprint
+## 🧩 TAL-Libs — Thinking Module Collection
 
-The English preprint is published on Zenodo:
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15379276.svg)](https://zenodo.org/records/15379276)
+[TAL-Libs](https://github.com/tanep3/TAL-Libs) is an official collection of **single-function thinking modules** written in TAL.  
+By combining these modules, you can give AI *ways of thinking* rather than commands, and design complex cognitive processes with ease.  
+For detailed explanations and composition examples, please see the README in the TAL-Libs repository.  
 
 ---
+
 
 ## 💬 Discussions
 
@@ -113,7 +130,7 @@ TAL is a prompt OS that gives AI structured thought instead of commands. This ar
 
 Tane Channel Technology
 
-➡️ [x.com/tanep3 (旧 Twitter)](https://x.com/tanep3)
+➡️ [x.com/tanep3](https://x.com/tanep3)
 
 ---
 
